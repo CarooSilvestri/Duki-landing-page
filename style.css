@@ -1,0 +1,203 @@
+* {
+    font-family: 'Krona One', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+h1
+{
+    margin: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p
+{
+font-size: 1vw;
+}
+
+.navbar {
+
+    position: absolute;
+    margin: 3%;
+}
+
+.duki
+{
+    color: white;
+    margin-right: 10%;
+}
+
+#header
+{
+    width: 100%;
+    height: auto;
+}
+
+#opciones-navbar
+{
+    color: black;
+    margin-right: 2%;
+}
+
+
+#opciones-navbar:hover
+{
+    color: white;
+}
+
+.navbar-collapse
+{
+
+    padding-left: 5%;
+}
+
+#quien-es
+{
+    padding: 4%;
+}
+
+#prox-fechas
+{
+    padding: 7%;
+}
+
+
+#img1 {
+    height: 800px;
+    background-image: url(rsc/1.jpg);
+    background-size: cover;
+    padding: 0;
+    background-position: center center;
+    
+}
+
+#img2 {
+    height: 400px;
+    background-image: url(rsc/2.jpg);
+    background-size: cover;
+    padding: 0;
+    background-position-y: 10%;
+}
+
+#img3 {
+    height: 400px;
+    background-image: url(rsc/duki-banner.jpg);
+    background-size: cover;
+    padding: 0;
+    background-position: center center;
+}
+#img1:hover,#img2:hover,#img3:hover {
+    animation: shrink 2s 5 alternate;
+}
+@keyframes shrink {
+  0% {
+    filter: brightness(1)
+  }
+  100% {
+    filter: brightness(0.2)
+  }
+}
+.banner
+{
+    background-image: url(rsc/duki-banner.jpg);
+    background-size: cover;
+    background-position: 10px;
+    height: 200px;
+    filter: saturate(0.2);
+}
+
+.banner h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 6vw;
+}
+
+
+#tit-prox-fechas 
+{    
+
+    font-size: 4vw;
+
+}
+#tit-prox-fechas
+{        
+    animation: escribir 3s steps(20) infinite;
+    animation-delay: 15s;
+    overflow: hidden;  
+    white-space: nowrap;
+ 
+}
+
+@keyframes escribir {
+    0% { width: 0ch }
+    100% { width: 17ch }
+}
+
+#fecha
+{
+    text-align: center;
+}
+
+#cantidades {
+
+    margin: 10% 5% 8% 5%;
+}
+#numeros
+{
+   padding: 2%;
+   text-align: center;
+}
+
+.contador
+{
+    font-size: 2vw;
+}
+
+footer 
+{
+    background-color: #0D0D0D;
+    padding: 3%;
+}
+
+#contenido
+{
+   
+    text-align: center;
+}
+
+#contenido h1
+{
+    color: white;
+}
+
+#letras
+{
+    color: white;
+    text-align: center;
+    
+}
+
+#redes-sociales
+{
+    padding-top: 2%;
+    width: 30%;
+    margin: auto;
+}
+
+#ver-mas
+{
+    color: whitesmoke;
+    margin-top: 15%;
+    padding-left: 5%;
+}
+
+#ver-mas:hover {
+
+    font-size: 5vh;
+}
