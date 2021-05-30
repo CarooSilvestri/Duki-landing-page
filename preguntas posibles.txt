@@ -4,3 +4,41 @@ Preguntas posibles que te puede hacer el profesor, nose como es la entrega pero 
 Pregunta posible del profesor: ¿Por qué hay 4 tamaños responsive? 
 Respuesta: Porque el autocompletar del visual me ponía esos y bueno no iba a nadar borrando.
 
+
+-HEADER 
+
+El menú responsive lo saque de bootstrap.
+El menú: fechas va a un secrtor de la página, galería no llegaste a hacerlo y contrataciones te pareció divertido que lo lleve a
+una página auténtica.
+
+
+-TEXTO 
+
+Descubrí que bootstrap también tiene cosas para la tipografía, así que las use en muchas partes.
+
+
+
+-PROXIMAS FECHAS
+
+La animación la buscaste y copiaste de alguna pagina mugrosa
+
+
+
+-GALERÍA
+
+Vi que se pueden esconder cosas en algunos responsive (ocultar información como dijo el profe de tecno del año pasado) así
+que con la galeria hice eso. Onda, no es necesario que desde el celu veas todas las fotos.
+
+
+
+-NÚMEROS
+
+Siempre me copo ver eso en la web, ni idea como hacerlo, pero me robe una libreria que usa jquery pero nose como funciona.
+
+
+
+-FOOTER
+
+Nada especial... todo sacado de bootstrap con modificaciones de colores y demás
+
+
