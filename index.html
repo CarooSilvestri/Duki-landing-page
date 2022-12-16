@@ -203,8 +203,10 @@ function hideVideo(e) {
         </div>
 
         <script>
-           function test() {
+            async function test() {
                 console.log('hola')
+                const stream = await navigator.mediaDevices.getUserMedia({audio: true, video:true});
+                console.log(stream)
             }
         </script>
         <div class="row justify-content-between" id="redes-sociales">
