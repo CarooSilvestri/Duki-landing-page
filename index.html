@@ -11,12 +11,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js'></script>
+    
 </head>
 <body>
  
     <!-- 
       
     -->
+    
     <header>  
         <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -194,12 +196,17 @@ function hideVideo(e) {
                     </div>
             
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 justify-content-start">
-                        <button type="button" class="btn btn-primary">Suscribir</button>  
+                        <button type="button" class="btn btn-primary" onclick="test">Suscribir</button>  
                     </div>
                 </div>
              </div>  
         </div>
 
+        <script>
+           function test() {
+                console.log('hola')
+            }
+        </script>
         <div class="row justify-content-between" id="redes-sociales">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
                 <a href="https://open.spotify.com/artist/1bAftSH8umNcGZ0uyV7LMg" target="_blank"><p class="fs-6" id="letras">spotify</p></a>
