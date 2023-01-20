@@ -230,14 +230,15 @@
 			// Discard Safari since it also matches Chrome
 			if ((chromeAgent) && (safariAgent))
 				safariAgent = false;
-		
+		  
 			// Detect Opera
-			let operaAgent =
-				userAgentString.indexOf("OP") > -1;
+			let isSamsung =
+				userAgentString.indexOf('Samsung') > -1;
 				
 			// Discard Chrome since it also matches Opera	
-			if ((chromeAgent) && (operaAgent))
-				chromeAgent = false;
+			 if (chromeAgent && isSamsung) chromeAgent = false;
+			
+			
 		
 			document.querySelector(".output-safari").textContent
 						= safariAgent;
@@ -246,7 +247,7 @@
 			document.querySelector(".output-ie").textContent
 						= IExplorerAgent;
 			document.querySelector(".output-opera").textContent
-						= operaAgent;
+						= isSamsung;
 			document.querySelector(".output-firefox").textContent
 						= firefoxAgent;
 		}
